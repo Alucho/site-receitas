@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
-
+/*
+#EBDD00 #F2A50C #DB4500 #F20C43 #A40CE8
+*/
 body, ul, li, p {
     margin: 0px;
     padding: 0px;
@@ -8,9 +10,19 @@ body, ul, li, p {
     font-family: 'Fredoka', sans-serif;
 }
 
+body{
+    background-color: #f58d4d7e;
+}
+
+header > a {
+    text-decoration: none;
+    color: #ebdd00;
+}
+
 a {
     text-decoration: none;
-    color: white;
+    color: #DB4500;
+    text-align: center;
 }
 
 h1 {
@@ -27,15 +39,17 @@ img {
     flex: 1 1 200px;
     min-height: 80%;
     min-width: 100%;
+    border-radius: 1em;
 }
 
 .header {
-    background: #1d1e20;
+    background: #F20C43;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    box-shadow: 0 0 1em #F20C43;
 }
 
 .menu{
@@ -49,6 +63,7 @@ img {
 .menu li a{
     display: block;
     padding: 10px;
+    color:#ebdd00;
 }
 
 .flex {
@@ -60,17 +75,20 @@ img {
 
 .flex > div {
     border-style: double;
-    border-color: black;
+    border-color: #000000;
+    border-radius: 1em;
     flex: 1 1 200px;
     margin: 10px;
-    background-color: rgb(221, 255, 71);
+    background-color: #ebdd00;
+    box-shadow: 0 0 0.1em #db4500;
 }
 
 .flex > p {
-    color: black;
+    color: #000000;
     text-decoration: none;
 }
 
-section > div > a {
-    color: black;
+footer{
+    background-color: #DB4500;
+    padding: 1em;
 }
